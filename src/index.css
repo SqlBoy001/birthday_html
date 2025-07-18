@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-r from-pink-50 to-purple-50 min-h-screen;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-primary text-white rounded-lg hover:bg-opacity-90 transition-all duration-300;
+  }
+  
+  .card {
+    @apply bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
