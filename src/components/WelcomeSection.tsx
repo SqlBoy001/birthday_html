@@ -8,7 +8,7 @@ interface WelcomeSectionProps {
 const WelcomeSection = ({ onNext }: WelcomeSectionProps) => {
   const [showButton, setShowButton] = useState(false)
   const [name, setName] = useState('')
-  const targetName = '亲爱的小美' // 替换为女朋友的名字
+  const targetName = '亲爱的菱菱' // 替换为女朋友的名字
 
   useEffect(() => {
     // 文字逐个显示动画
